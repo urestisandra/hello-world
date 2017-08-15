@@ -10,6 +10,7 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.internal.AssumptionViolatedException;
 
 /**
  * @author d.serrano.parreno
@@ -47,7 +48,9 @@ public class ShipTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented"); // TODO
+		run (); // TODO
 	}
+	
+	// to be implemented @Test 
 
 }
